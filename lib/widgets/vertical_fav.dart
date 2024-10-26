@@ -39,10 +39,8 @@ class VerticalRecomendList extends StatelessWidget {
                 children: [
                   ItemCard(
                     items[index],
-                    () {}, // هنا يتم استخدام دالة فارغة للنقر
+                    () {}, // 
                     (item) {
-                      // يمكنك إضافة منطق إضافة / إزالة العنصر من المفضلة هنا
-                      // على سبيل المثال، يمكنك استخدام حالتك الخاصة للمفضلات أو بيانات أخرى
                     },
                   ),
                   const SizedBox(height: 12.0), // Add space between items
